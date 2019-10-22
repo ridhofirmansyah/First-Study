@@ -1,0 +1,75 @@
+Materi 1:
+CSS merupakan CaseCading Stylesheet atau dalam bahasa indonesia kita 
+mengenal sebagai kode yang ditulis secara vertical ke bawah
+
+untuk menambahkan code CSS ada tiga cara
+1. Menambahkan atribut style pada tag HTML
+	cth1: <div style="text-align: center;"></div>
+	cth2: <div>
+                <img style="height: 200px;width: 200px;" src="DSC_0014.jpg" 
+                alt="Gambar Profil">
+            </div>
+2. Menambahkan tag <style> di dalam tag <head>
+	cth1: <head>
+	 	<title>Contoh Internal CSS</title>
+	  	<style type="text/css"?
+	  	p{
+	    	font-family: serif;
+	  	}
+	  	</style>
+	      <head>
+	cth2: <head>
+        	<title>Profil Saya</title>
+        	<style>
+            	    img{
+                	height: 200px;
+                	width: 200px;
+            	    }
+        	</style>
+    	      </head>
+3. Menambahkan class pada elemen yang diinginkan
+	cth1: 
+	cth2: <head>
+        	<title>Profil Saya</title>
+        	<style>
+            	   .ridho-class{
+                	height: 155px;
+                	width: 155px;
+            	   }
+        	</style>
+    	      </head>
+		<div>
+                    <img class="ridho-class" src="DSC_0014.jpg" 
+                    alt="Gambar Profil">
+               </div>
+ >> jika menggunakan class maka di style diawali dengan titik (.)
+	cth: <img class="ridho-class">
+	maka .ridho-class{}
+>> jika menggunakan id maka di style diawali dengan pagar (#)
+	cth: <img id="ridho-class">
+	maka #ridho-class{}
+perbedaan class dan id
+>> Ketika menggunakan selector class makan nama class yang kita gunakan
+bisa digunakan lebih dari satu tag HTML yg lain/elemen yg lain
+>> Ketika menggunakan id maka style css tidak bisa digunakan untuk
+lebih dari satu tag dan elemen
+
+4. menambahkan file external css
+   - menambahkan link pada tag <head>
+   - membuat file .css
+	cth1: <link rel="stylesheet" type="text/css" href="style-ku.css">
+	cth2: <head>
+        	<title>Profil Saya</title>
+        	<link rel="stylesheet" href="style.css">
+              </head>
+		<div>
+                    <img id="foto-class" src="DSC_0014.jpg" alt="Gambar Profil">
+            	</div>
+dan di file .cssnya
+		#foto-class{
+    			height: 100px;
+    			width: 125px;
+		}
+
+>> titik koma (;) adalah untuk memisahkan antara satu properti dengan
+properti lainnya
