@@ -1,0 +1,12 @@
+Materi 2: (Membuat Halaman Menu Navbar/Navigation Bar)
+
+*, body{
+    margin: 0;
+    padding: 0;
+}
+code di atas untuk me-reset page
+margin dan padding untuk jarak atas dan bawah
+
+kode komentar (/* komentar */) bisa diimplementasikan untuk memberi
+keterangan pada sebuah kodingan. kode komentar tidak akan di baca sebagai
+kode css oleh browser
