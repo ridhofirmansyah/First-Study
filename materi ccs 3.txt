@@ -1,0 +1,12 @@
+Materi 3: styling konten profil
+membuat halaman isi profile, button, image, style text
+
+tag <img> dirubah menjadi tag <div> agar nantinya kita mudah dalam
+memberikan style
+
+untuk mengetik kode multiline caranya dengan menekan alt dan memilih
+line manakah yang ingin diketikkan secara bersamaan.
+
+backgroud-color: #52dc90; //untuk menampilkan warna hijau
+backgroud-color: #55a8fd; //untuk menampilkan warna biru
+color: #fff; //untuk warna putih
